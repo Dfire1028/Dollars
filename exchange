@@ -1,0 +1,11 @@
+#include <stdio.h>
+main()
+{
+      float dollars;
+      int ksh;
+      printf("enter amount in ksh\n");
+      scanf("%d",&ksh);
+      dollars=(ksh)/154;
+      printf("dollars=%f",dollars);
+      return0;
+      }
